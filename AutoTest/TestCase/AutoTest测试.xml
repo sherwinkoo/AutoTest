@@ -1,0 +1,16 @@
+<TestGroup name="AutoTest¿ª·¢²âÊÔ">
+	<setup type="BAT">Script\TestGroup_setup.bat</setup>
+	<cleanup type="BAT">Script\TestGroup_cleanup.bat</cleanup>
+	
+	<Case name="TestCase1">
+		<setup type="BAT">Script\TestCase1_setup.bat</setup>
+		<cleanup type="BAT">Script\TestCase1_cleanup.bat</cleanup>
+		<condition type="file" path="logs/test1.log" timeout=10>Test1 OK</condition>
+	</Case>
+
+	<Case name="TestCase2">
+		<setup type="BAT">Script\TestCase2_setup.bat</setup>
+		<cleanup type="BAT">Script\TestCase2_cleanup.bat</cleanup>
+		<condition type="file" path="logs/test2.log" timeout=10>Test2 OK</condition>
+	</Case>
+</TestGroup>

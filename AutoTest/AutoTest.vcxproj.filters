@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TinyXml">
+      <UniqueIdentifier>{49ee65f1-3e15-492a-89fd-1221839419a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Starter">
+      <UniqueIdentifier>{f26bcb06-7322-449e-a83f-af3c02dded91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monitor">
+      <UniqueIdentifier>{c95a522d-785f-42dc-8b37-8ba694bc36ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{769b9d6d-7ea6-4bd2-8651-ee785aeeeabf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\tinystr.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\tinyxml.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\AtController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Starter\AtStarter.h">
+      <Filter>Starter</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor\AtMonitor.h">
+      <Filter>Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="AtErrorCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor\AtDbgMonitor.h">
+      <Filter>Monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\AtHTMLGenerator.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinystr.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxml.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxmlerror.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\tinyxmlparser.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\AtController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Starter\AtStarter.cpp">
+      <Filter>Starter</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor\AtMonitor.cpp">
+      <Filter>Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="AtErrorCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monitor\AtDbgMonitor.cpp">
+      <Filter>Monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\AtHtmlGenerator.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
